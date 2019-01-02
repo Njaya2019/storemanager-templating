@@ -1,0 +1,11 @@
+/.vscode/
+/__pycache__/
+/.pytest_cache/
+/admin/__pycache__/
+/storeattendant/__pycache__/
+/tests/__pycache__/
+/tests/test_endpoints/__pycache__/
+/tests/test_validators/__pycache__/
+/views/__pycache__/
+/models/__pycache__/
+/Validators/__pycache__/

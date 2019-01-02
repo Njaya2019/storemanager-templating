@@ -1,0 +1,142 @@
+#cart-table, #total-table{
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 40px;
+    
+    }
+    table,th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    th,td{
+    padding: 10px;
+    width: 200px;
+    }
+    tr:nth-child(even){
+    background-color: #e8e8e8;
+    
+    
+    }
+    tr:nth-child(odd){
+    
+    background-color: white;
+    }
+
+    #cart{
+        text-align: center;
+        border-bottom: 1px solid black;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        text-align: center;
+        border-bottom: 1px solid black;
+        margin-left: 100px;
+        margin-right: 100px;  
+        padding-bottom: 20px;
+    }
+    #checkout{
+     background-color: #4682B4;
+     color: white;
+     border-radius: 5px;
+     padding: 10px;
+     border: 1px solid black;
+     cursor: pointer;
+     float: right;
+     margin-right: 310px;
+     margin-top: 10px;
+     width: 150px;
+    }
+#products-panel{
+border: 1px solid black;
+
+
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+
+}
+
+#products-panel-heading{
+    border: none;
+      padding: 10px;
+      background-color: lightblue;   
+}
+.product-panel-heading{
+  border: none;
+    padding: 10px;
+    background-color: lightblue;
+
+    
+}
+#products-panel-footer{
+margin-bottom: 0px;
+background-color: lightblue; 
+padding: 10px;
+text-align: center; 
+}
+.product-panel-footer{
+margin-top: 178px;
+    background-color: lightblue; 
+    padding: 10px;  
+   
+}
+.product{
+    border: 1px solid black;
+    height: 250px;
+    width: 190px;   
+    margin: 20px;
+    display:inline-block;
+
+}
+.submit-prodct{
+background-color: red;
+float: right;
+color: white;
+}
+
+#search-label{
+    text-align: center;
+}
+
+#img{
+    height: 0px;
+    width: 50px;
+    margin-bottom: 0px;
+    
+}
+
+#img #img-image{
+    height: 170px;
+    width: 150px;
+    margin-left: 20px;
+    
+}
+#search-products{
+    margin-right: auto;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#search-products #search{
+    padding: 10px;
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+#submit-search{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-cart{
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}

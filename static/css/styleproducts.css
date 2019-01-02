@@ -1,0 +1,84 @@
+#form-product{
+border: 1px solid black;
+margin: 5px;
+padding: 10px;
+
+}
+.form-product{
+    display: inline;
+    margin-left: 5px;
+}
+
+.form-product input{
+    margin: 10px;
+    padding: 10px;
+    width: 190px;
+    border:1px solid black;
+    border-radius: 5px;
+
+}
+label{
+    font-weight: bold;
+}
+#products-table{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+#product-heading-2nd{
+    font-size: 150%;
+    text-align:  center;
+
+}
+#product-heading{
+ text-align: center;
+ border-bottom: 1px solid black;
+ padding-bottom: 20px;
+ margin-left: 50px;
+margin-right: 50px;
+}
+
+#product-heading{
+font-size: 35px;
+}
+.form-product #submitproduct{
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border:1px solid black;
+    float: right;
+    background-color: black;
+    margin-right: 60px;
+    color: white;
+    font-size: 110%;
+    cursor: pointer;
+}
+/*======================== Modal to edit a store product========*/
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0,0.7)
+    }
+    .modal-content{
+        
+        background-color: #f4f4f4;
+        margin: 20% auto;
+        padding: 20px;
+        width: 70%;
+    }
+    .closebtn{
+        color: #ccc;
+        float: right;
+        font-size: 30px;
+    }
+    .closebtn:hover, .closebtn:focus{
+        color:#000;
+        text-decoration: none;
+        cursor: pointer;
+    }

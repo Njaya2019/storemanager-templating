@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin's page</title>
+    <!--<link rel="stylesheet" type="text/css" href="../css/style.css">-->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+        <div id="nav-bar">
+             <h1><a href="index.html">Andrew's Store Admin</a></h1>  
+                <ul>
+                       
+                <li><a href="products.html">products</a></li>
+                <li><a href="storeattendants.html">Store Attendants</a></li>
+                 </ul>
+        </div>
+        <h1 id="sale-admin">Store attendants' sales</h1>
+        <table id="admin-sale-table">
+            <tr>
+            <th>#</th>
+            <th>store attendant's name</th>
+            <th>Number products sold</th>
+            <th>Transanction date</th>
+            <th>Transanction cost</th>
+            </tr>
+            <tr>
+                <td>
+                  1
+                </td>
+                <td>John Mwakazi</td>
+                <td>2</td>
+                <td>Oct 8, 2018 12:00 A.M</td>
+                <td>$59.98</td>
+            </tr>
+        </table>    
+    
+</body>
+</html>

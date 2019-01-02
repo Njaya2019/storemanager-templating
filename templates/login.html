@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---<link rel="stylesheet" type="text/css" href="css/style.css">-->
+    <!---<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">-->
+    <title>store's login</title>
+
+</head>
+<body>
+    <div id="brand">
+      <h1>Andrew's Store. <span>"We got it all" </span></h1> 
+      <h4 id="error"></h4>
+    </div>
+    
+   <div id="border">
+       <h1>login</h1>
+    <form id="login" method="POST"
+
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        
+            
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password">
+          
+            
+           
+            <input type="submit" id="submit" name="submit" value="submit"/>
+          
+            
+
+       
+    </form>
+</div>
+    <div id="footer">
+        &copy; <span>2018 Andrew's store. All rights reserved.</span> 
+      </div>
+     <script type="text/javascript" src="{{url_for('static', filename='js/token.js')}}"></script>        
+</body>
+</html>

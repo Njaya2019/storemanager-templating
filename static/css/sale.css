@@ -1,0 +1,30 @@
+#sale-table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+     
+     }
+     table,th, td{
+     border: 1px solid black;
+     border-collapse: collapse;
+     }
+     th,td{
+     padding: 10px;
+     width: 200px;
+     }
+     tr:nth-child(even){
+     background-color: #e8e8e8;
+     
+     
+     }
+     tr:nth-child(odd){
+     
+     background-color: white;
+     }
+#sale{
+text-align: center;
+border-bottom: 1px solid black;
+padding-bottom: 20px;
+margin-right: 100px;
+margin-left: 100px;
+}

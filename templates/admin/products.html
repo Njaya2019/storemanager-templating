@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin's page</title>
+    <!--<link rel="stylesheet" type="text/css" href="../css/style.css">-->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+    <!--<link rel="stylesheet" type="text/css" href="../css/styleproducts.css">-->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styleproducts.css')}}">
+</head>
+<body>
+    <!--- header -->
+        <div id="nav-bar">
+             <h1><a href="index.html">Andrew's Store Admin</a></h1>  
+                <ul>
+                       
+                <li><a href="products.html">products</a></li>
+                <li><a href="storeattendants.html">Store Attendants</a></li>
+                 </ul>
+        </div>
+        <h1 id="product-heading">Store's products</h1>
+    <!--- Form to add products -->
+        <div class="form-product" id=""></div>
+        <h2 id="product-heading-2nd">Add a Product</h2>
+        <form id="form-product" action="">
+                <p>
+                    <div class="form-product">
+                    <label for="email">Product name:</label>
+                    <input type="text" id="" name="prodctname">
+                    </div>
+                    <div class="form-product">
+                        <label for="price">Price:</label>
+                        <input type="text" id="" name="price">
+                    </div>
+                    <div class="form-product">
+                        <label for="qty">Quantity:</label>
+                        <input type="number" id="" min="0" name="qty">
+                        </div>
+                    <div class="form-product">
+                        <label for="prodimg">Product photo:</label>
+                        <input type="file" value="Upload Image" id="" name="submit">
+                        </div>
+                    <div class="form-product">
+                            <label for="submitproduct"></label>
+                            <button type="submit" id="submitproduct" name="submitproduct">Add product</button>
+                    </div>
+                    
+               </p>
+               
+            </form>
+     <!--- A table of products -->
+        <table class="" id="products-table">
+                <tr>
+                <th></th>
+                <th></th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Featured</th>
+                <th>Sold</th>
+                </tr>
+                <tr>
+                    <td>
+                       <button id="edit" class="edit">&#9998; Edit</button>
+                       <button id="delete" class="delete">&#10005; Delete</button>
+                    </td>
+                    <td> <button class="details">Details</button></td>
+                    <td>Timberland shoes</td>
+                    <td>$49.99</td>
+                    <td>Feature product</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                        <td>
+                                <button id="edit" class="edit">&#9998; Edit</button>
+                                <button id="delete" class="delete">&#10005; Delete</button>
+                        </td>
+                        <td><button class="details">Details</button></td>
+                        <td>Leather Purse</td>
+                        <td>$19.99</td>
+                        <td>Feature product</td>
+                        <td>0</td>
+                    </tr>
+            </table>
+       
+            <div id="simplemodal" class="modal">
+                    <div class="modal-content">
+                        <span class="closebtn">&times;</span>
+                        <p>I'm a modal</p>
+                    </div>
+                    </div>
+                    
+        <script src="../js/main.js"></script>
+    
+</body>
+</html>
